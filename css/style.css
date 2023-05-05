@@ -130,6 +130,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  width: 496px;
   padding-top: 188px;
   margin-bottom: 48px;
 }
@@ -158,6 +159,9 @@ body {
   padding-bottom: 188px;
 }
 /*================ SECTION SECOND============ */
+.container-second-section {
+  padding: 120px 156px 120px 156px;
+}
 .tittle-section-second {
   font-weight: 500;
   font-size: 20px;
@@ -167,6 +171,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-bottom: 8px;
 }
 .text-section-second {
   font-weight: 400;
@@ -188,11 +193,25 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+.menu-section-galery {
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-bottom: 120px;
+  gap: 24px;
 }
 /* ========SECTION OUR TEAM ==========*/
 .section-team {
   background-color: #f4f4fd;
 }
+.menu-section-team {
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-bottom: 120px;
+  gap: 24px;
+}
+
 .title-section-team {
   font-weight: 700;
   font-size: 36px;
@@ -201,10 +220,17 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .item-section-team {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
+.image-section-team {
+  margin-bottom: 32px;
+}
+
 .title-item-team {
   font-weight: 500;
   font-size: 20px;
@@ -215,6 +241,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+  padding-bottom: 8px;
 }
 .text-item-team {
   font-weight: 400;
@@ -226,6 +253,7 @@ body {
   flex: none;
   order: 1;
   flex-grow: 0;
+  margin-bottom: 32px;
 }
 /*========== FOOTER ==========*/
 .footer {
