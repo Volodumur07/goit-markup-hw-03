@@ -34,9 +34,10 @@ body {
   background-color: #ffffff;
 }
 .container {
-  width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 /* ===============Header============= */
 .page-header {
@@ -53,8 +54,7 @@ body {
 .page-nav {
   display: flex;
   align-items: center;
-  column-gap: 76px;
-  padding-left: 156px;
+  margin-right: 76px;
 }
 .logo {
   font-family: var(--secondary-font-family);
@@ -66,6 +66,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logotextstudio {
   font-family: var(--secondary-font-family);
@@ -79,9 +80,9 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
 }
-.list {
+.menu-nav {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .list-item {
   font-weight: 500;
@@ -98,7 +99,9 @@ body {
 .contact {
   font-style: normal;
   margin-left: auto;
-  padding-right: 156px;
+}
+.contact-menu {
+  display: flex;
 }
 .mailtel {
   font-style: normal;
@@ -161,7 +164,7 @@ body {
 }
 /*================ SECTION SECOND============ */
 .container-second-section {
-  padding: 120px 156px 120px 156px;
+  padding: 120px 0 120px 0;
 }
 .tittle-section-second {
   font-weight: 500;
@@ -174,6 +177,14 @@ body {
   flex-grow: 0;
   margin-bottom: 8px;
 }
+.menu-section-second {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.item-section-second {
+  width: 264px;
+}
 .text-section-second {
   font-weight: 400;
   font-size: 16px;
@@ -183,6 +194,7 @@ body {
   flex: none;
   order: 1;
   flex-grow: 0;
+  width: 264px;
 }
 /* =========SECTION What are we doing (Galery)====== */
 
@@ -197,8 +209,8 @@ body {
   margin-bottom: 72px;
 }
 .menu-section-galery {
-  padding-left: 156px;
-  padding-right: 156px;
+  display: flex;
+
   padding-bottom: 120px;
   gap: 24px;
 }
@@ -210,8 +222,8 @@ body {
   background-color: #f4f4fd;
 }
 .menu-section-team {
-  padding-left: 156px;
-  padding-right: 156px;
+  display: flex;
+
   padding-bottom: 120px;
   gap: 24px;
 }
@@ -267,7 +279,7 @@ body {
 }
 .logo-footer {
   padding-top: 100px;
-  padding-left: 156px;
+
   margin-bottom: 16px;
 }
 .text-footer {
@@ -277,8 +289,8 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   display: block;
-  width: 450px;
-  padding-left: 156px;
+  width: 264px;
+
   padding-bottom: 100px;
   padding-right: auto;
 }
@@ -287,8 +299,16 @@ body {
 }
 /*=============== PAGE PORTFOLIO==================== */
 /* =====SECTION BUTTON===== */
+.services-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .menu-btn {
-  padding: 96px 427px 72px 427px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 72px;
   gap: 24px;
 }
 
@@ -317,16 +337,21 @@ body {
   background: #404bbf;
 }
 /* =======SECTION GALERY====== */
-.container-menu-galery {
-  padding-left: 156px;
-  padding-bottom: 120px;
-}
+
 .menu-galery {
+  display: flex;
   flex-wrap: wrap;
-  row-gap: 24px;
-  column-gap: 48px;
+  row-gap: 48px;
+  column-gap: 24px;
 }
+.item-galery {
+  width: 360px;
+  height: 420px;
+}
+
 .container-item-galery {
+  padding: 32px 16px;
+  border-top: none;
   border: 1px solid #e7e9fc;
 }
 .title-menu-galery {
@@ -338,8 +363,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-top: 32px;
-  margin-left: 16px;
+
   margin-bottom: 8px;
 }
 .text-menu-galery {
@@ -351,6 +375,4 @@ body {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-left: 16px;
-  margin-bottom: 32px;
 }
