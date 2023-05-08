@@ -216,9 +216,7 @@ body {
 
   gap: 24px;
 }
-.item-galery {
-  border: 1px solid #e7e9fc;
-}
+
 /* ========SECTION OUR TEAM ==========*/
 .section-team {
   background-color: #f4f4fd;
@@ -354,8 +352,8 @@ body {
 
 .container-item-galery {
   padding: 32px 16px;
-  border-top: none;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .title-menu-galery {
   font-weight: 500;
@@ -366,7 +364,6 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-
   margin-bottom: 8px;
 }
 .text-menu-galery {
